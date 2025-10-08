@@ -1,0 +1,25 @@
+﻿<Window x:Class="LabWPF_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LabWPF_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="White" FontSize="14">
+    <Grid x:Name="Mainroot">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFE6BEF4"/>
+                <GradientStop Color="#FFFDFAFA" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <DockPanel LastChildFill="False" Margin="100">
+        <Button DockPanel.Dock="Left" Content="Hello" Height="50" Width="100" Click="Hello_Click" Background="#FFF29BFA" Foreground="White" FontSize="18" />
+        <Button DockPanel.Dock="Right" Content="Good bye" Height="50" Width="100" Click="GoodBye_CLick" Background="#FFF29BFA" Foreground="White" FontSize="18"/>
+        <Label x:Name="Starting" DockPanel.Dock="Top" Content="Getting started" FontSize="24" HorizontalContentAlignment="Center" Background="#FFE892F4" Foreground="White"/>
+            
+            <Button DockPanel.Dock="Bottom" Content="Task 2" Width="100" Background="#FFF29BFA" Foreground="White" FontWeight="Bold" Click="Task2_Click"/>
+        </DockPanel>
+        <Frame x:Name="Task2" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>
