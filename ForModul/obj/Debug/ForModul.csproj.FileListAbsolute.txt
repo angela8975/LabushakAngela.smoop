@@ -1,0 +1,15 @@
+D:\projects_c#\2 курс\ForModul\bin\Debug\ForModul.exe.config
+D:\projects_c#\2 курс\ForModul\bin\Debug\ForModul.exe
+D:\projects_c#\2 курс\ForModul\bin\Debug\ForModul.pdb
+D:\projects_c#\2 курс\ForModul\obj\Debug\ForModul.csproj.AssemblyReference.cache
+D:\projects_c#\2 курс\ForModul\obj\Debug\MainWindow.g.cs
+D:\projects_c#\2 курс\ForModul\obj\Debug\App.g.cs
+D:\projects_c#\2 курс\ForModul\obj\Debug\ForModul_MarkupCompile.cache
+D:\projects_c#\2 курс\ForModul\obj\Debug\ForModul_MarkupCompile.lref
+D:\projects_c#\2 курс\ForModul\obj\Debug\MainWindow.baml
+D:\projects_c#\2 курс\ForModul\obj\Debug\ForModul.g.resources
+D:\projects_c#\2 курс\ForModul\obj\Debug\ForModul.Properties.Resources.resources
+D:\projects_c#\2 курс\ForModul\obj\Debug\ForModul.csproj.GenerateResource.cache
+D:\projects_c#\2 курс\ForModul\obj\Debug\ForModul.csproj.CoreCompileInputs.cache
+D:\projects_c#\2 курс\ForModul\obj\Debug\ForModul.exe
+D:\projects_c#\2 курс\ForModul\obj\Debug\ForModul.pdb
