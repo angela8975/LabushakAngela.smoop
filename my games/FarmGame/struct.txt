@@ -1,0 +1,59 @@
+FarmGame/
+├── App.xaml
+├── App.xaml.cs
+├── MainWindow.xaml
+├── MainWindow.xaml.cs
+│
+├── Models/
+│   ├── Player.cs
+│   ├── Building.cs
+│   ├── Field.cs
+│   ├── Barn.cs
+│   ├── ChickenCoop.cs
+│   ├── Product.cs
+│   ├── Seed.cs
+│   ├── Crop.cs
+│   └── Animal.cs
+│
+├── ViewModels/
+│   ├── MainViewModel.cs
+│   ├── PlayerViewModel.cs
+│   ├── FieldViewModel.cs
+│   ├── BarnViewModel.cs
+│   ├── ChickenCoopViewModel.cs
+│   └── GameViewModel.cs
+│
+├── Views/
+│   ├── MainWindow.xaml
+│   ├── MainWindow.xaml.cs
+│   ├── FieldView.xaml
+│   ├── FieldView.xaml.cs
+│   ├── BarnView.xaml
+│   ├── BarnView.xaml.cs
+│   └── ChickenCoopView.xaml
+│       └── ChickenCoopView.xaml.cs
+│
+├── Services/
+│   ├── GameTimerService.cs       // таймер для росту культур, яєць тощо
+│   ├── ExperienceService.cs      // розрахунок XP та рівнів
+│   ├── SaveLoadService.cs        // збереження і завантаження гри
+│   └── EconomyService.cs         // ціни, продаж, покупка, виробництво
+│
+├── Utils/
+│   ├── RelayCommand.cs           // допоміжна команда для кнопок (MVVM)
+│   ├── EnumDescriptions.cs
+│   └── Extensions.cs
+│
+├── Data/
+│   ├── GameData.xml              // базові дані про культури, продукти
+│   └── PlayerSave.json           // збереження гри
+│
+└── Resources/
+    ├── Images/
+    │   ├── wheat.png
+    │   ├── corn.png
+    │   ├── barn.png
+    │   └── chicken.png
+    └── Sounds/
+        ├── levelup.wav
+        └── harvest.wav

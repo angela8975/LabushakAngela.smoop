@@ -1,0 +1,135 @@
+﻿<Window x:Class="FarmGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FarmGame"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Margin" Value="30,10,30,10"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Foreground" Value="White" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="140"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0" 
+                Grid.Column="0" 
+                Grid.ColumnSpan="5" 
+                Background="Beige"/>
+        <Border Grid.Row="1" Grid.Column="0"
+                Grid.RowSpan="6" Grid.ColumnSpan="5">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF1B6C08" Offset="0.5"/>
+                    <GradientStop Color="#FF39F41F" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+        <Border Grid.Row="2" Grid.Column="2" Grid.RowSpan="5"
+                Margin="20,70,20,0">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF4D3003"/>
+                    <GradientStop Color="#FF734505" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+
+        <Button x:Name="ButtonBarn" 
+                Grid.Row="1" Grid.Column="2" Grid.RowSpan="2"
+                Content="Barn"
+                Background="#A0522D"
+                Margin="10,30,10,10"/>
+
+        <Button x:Name="TextileMill"
+                Grid.Row="1" Grid.Column="3"
+                Content="Textile Mill"
+                Background="#607D8B"/>
+
+        <Button x:Name="Jewellery"
+                Grid.Row="1" Grid.Column="4"
+                Content="Jewellery"
+                Background="#FF72E506"/>
+
+        <Button x:Name="CheeseMaking"
+        Grid.Row="2" Grid.Column="3"
+                Content="Cheese Making"
+                Background="#FFE8D108"/>
+
+        <Button x:Name="MeatMill"
+        Grid.Row="2" Grid.Column="4"
+                Content="Meat Mill"
+                Background="#B71C1C"/>
+
+        <Button x:Name="FeedMill"
+        Grid.Row="3" Grid.Column="3"
+                Content="Feed Mill"
+                Background="#795548"/>
+
+        <Button x:Name="Bakery"
+        Grid.Row="3" Grid.Column="4"
+                Content="Bakery"
+                Background="#FFD7B04E"/>
+
+        <Button x:Name="BigField"
+        Grid.Row="4" Grid.Column="3"
+                Grid.ColumnSpan="2" Grid.RowSpan="2"
+                Content="Big Field"
+                Background="#8B4513"/>
+
+        <Button x:Name="SmallField1"
+        Grid.Row="6" Grid.Column="3"
+                Content="Small Field 1"
+                Background="#8B4513"/>
+
+        <Button x:Name="SmallField2"
+        Grid.Row="6" Grid.Column="4"
+                Content="Small Field 2"
+                Background="#8B4513"/>
+
+        <Button x:Name="Coop"
+         Grid.Row="6" Grid.Column="1"
+                Content="Chicken Coop"
+                Background="#FFFDAF68"
+                />
+
+        <Button x:Name="Piggery"
+         Grid.Row="6" Grid.Column="0"
+                Content="Piggery"
+                Background="#E9967A"/>
+
+        <Button x:Name="CowShed"
+         Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Grid.RowSpan="2"
+                Content="Cow Shed"
+                Background="#FF770BB7"/>
+
+        <Button x:Name="SheepFarm"
+         Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Grid.RowSpan="2"
+                Content="Sheep Farm"
+                Background="#66BB6A"/>
+
+        <Button x:Name="PeafowlFarm"
+         Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+                Content="Peafowl Farm"
+                Background="#008080"/>
+
+    </Grid>
+</Window>
